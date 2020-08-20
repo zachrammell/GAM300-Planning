@@ -26,16 +26,16 @@ No "Code Ownership," you are free to change other people's code.
 However, all code will be reviewed, and if you edit someone else's code they should review it.
 
 ### Engine Architecture Ideas:
-Data Oriented ECS
-No RTTI or Exceptions
-Live Update C++
-Libraries to use:
-EASTL, DirectXMath, GLFW(Win32 only if it doesn't work), Dear IMGUI, magic enum, 
-A simple editor with Unity style object manipulation, component editing, Debug camera window
-Multithreading only on specific systems as needed (i.e. physics) - use a thread pool
-Level Folders with one file per object in the level
-Things to consider:
-Flatbuffers
+Data Oriented ECS  
+No RTTI or Exceptions  
+Live Update C++  
+Libraries to use:  
+EASTL, DirectXMath, GLFW(Win32 only if it doesn't work), Dear IMGUI, magic enum,  
+A simple editor with Unity style object manipulation, component editing, Debug camera window  
+Multithreading only on specific systems as needed (i.e. physics) - use a thread pool  
+Level Folders with one file per object in the level  
+##### Things to consider:  
+Flatbuffers  
 
 ### Tools we want to use:
 Version Control - Git  
